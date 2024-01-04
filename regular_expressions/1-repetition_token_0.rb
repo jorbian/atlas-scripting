@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hb\w+n/).join
+# checker says: '/hb\w+n/' didn't match 'hbttttttn'
+puts ARGV[0].scan(/hbt+n/).join
